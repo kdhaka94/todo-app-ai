@@ -1,0 +1,110 @@
+
+> my-app@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.2s (539 modules)
+ ✓ Compiled in 670ms (262 modules)
+ GET / 200 in 5931ms
+ ○ Compiling /api/dashboard ...
+ ✓ Compiled /api/dashboard in 3.6s (305 modules)
+ GET /api/dashboard 200 in 3762ms
+ GET /api/dashboard 200 in 12ms
+ ✓ Compiled /inbox in 348ms (559 modules)
+ GET /inbox 200 in 498ms
+ ✓ Compiled /api/inbox in 112ms (311 modules)
+ GET /api/inbox 200 in 156ms
+ GET /api/inbox 200 in 13ms
+ ✓ Compiled /projects in 269ms (567 modules)
+ GET /projects 200 in 380ms
+ ✓ Compiled /api/projects in 119ms (317 modules)
+ GET /api/projects 200 in 147ms
+ GET /api/projects 200 in 9ms
+ ✓ Compiled /integrations in 232ms (575 modules)
+ GET /integrations 200 in 285ms
+ ✓ Compiled /api/integrations in 113ms (323 modules)
+ GET /api/integrations 200 in 145ms
+ GET /api/integrations 200 in 9ms
+ules)
+ GET / 200 in 3997ms
+ ○ Compiling /_not-found ...
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/app/.next/server/app/api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/integrations/route' in /app/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/app/.next/server/app/api/integrations/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/integrations/route' in '/app/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/integrations/route (expected /app/.next/server/app/api/integrations/route.js)
+<w>  at file dependencies /app/node_modules/next/dist/server/require.js
+<w>  at file /app/node_modules/next/dist/server/require.js
+<w>  at file dependencies /app/node_modules/next/dist/server/load-components.js
+<w>  at file /app/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /app/node_modules/next/dist/build/utils.js
+<w>  at file /app/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/entries.js
+<w>  at file /app/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /app/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack-config.js
+<w>  at file /app/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /app/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /app/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /app/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /app/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /app/node_modules/next/dist/build/swc/index.js
+<w>  at file /app/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file /app/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file dependencies /app/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file /app/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at resolve commonjs /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ ✓ Compiled /_not-found in 919ms (528 modules)
+ GET /_next/static/chunks/main-app.js?v=1773950650194 404 in 1048ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/app/.next/server/app/api/integrations'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/integrations/route' in /app/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/app/.next/server/app/api/integrations/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/integrations/route' in '/app/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/integrations/route (expected /app/.next/server/app/api/integrations/route.js)
+<w>  at file dependencies /app/node_modules/next/dist/server/require.js
+<w>  at file /app/node_modules/next/dist/server/require.js
+<w>  at file dependencies /app/node_modules/next/dist/server/load-components.js
+<w>  at file /app/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /app/node_modules/next/dist/build/utils.js
+<w>  at file /app/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/entries.js
+<w>  at file /app/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /app/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack-config.js
+<w>  at file /app/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /app/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /app/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /app/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /app/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /app/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /app/node_modules/next/dist/build/swc/index.js
+<w>  at file /app/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /app/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file /app/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file dependencies /app/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file /app/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file dependencies /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at file /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at resolve commonjs /app/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
